@@ -44,3 +44,18 @@ https://www.youtube.com/playlist?list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd
 - task runner - old
   - grunt, gulp, brunch
 -
+
+## eslint, prettier, editorConfig
+
+```shell
+npm i -D eslint
+npx eslint --init
+npx eslint src/*.js
+npx eslint src/*.js --fix
+
+npm i -D prettier-eslint
+npm i -D prettier-eslint-cli
+
+npx prettier-eslint 'src/**/*.js' --write
+
+```
