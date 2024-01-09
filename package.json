@@ -1,9 +1,12 @@
 {
   "name": "js-project",
   "version": "1.0.0",
+  "type": "module",
   "description": "modern js project",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
     "lint": "eslint **/*.js ",
     "lint:fix": "prettier-eslint **/*.js --write"
   },
@@ -26,6 +29,8 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "prettier-eslint": "^16.2.0",
-    "prettier-eslint-cli": "^8.0.1"
+    "prettier-eslint-cli": "^8.0.1",
+    "rimraf": "^5.0.5",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }

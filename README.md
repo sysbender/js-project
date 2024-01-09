@@ -59,3 +59,25 @@ npm i -D prettier-eslint-cli
 npx prettier-eslint 'src/**/*.js' --write
 
 ```
+
+## pre-commit with Husky & lint-staged
+
+## 5 rollup with CJS ESM UMD
+
+- bundle.cjs.js
+- bundle.esm.js
+- bundle.umd.js
+
+```shell
+npm i -D rollup-plugin-node-resolve
+
+npx rollup src/index.js --file dist/bundle.js --format cjs
+
+npx rollup -c
+```
+
+rimraf - for deleting a directory
+
+```shell
+npm i -D rimraf
+```
