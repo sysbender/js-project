@@ -1,0 +1,22 @@
+{
+  "name": "js-project",
+  "version": "1.0.0",
+  "description": "modern js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysbender/js-project.git"
+  },
+  "keywords": [
+    "spinner"
+  ],
+  "author": "Jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sysbender/js-project/issues"
+  },
+  "homepage": "https://github.com/sysbender/js-project#readme"
+}
